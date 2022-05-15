@@ -8,7 +8,7 @@ export default function Jokes() {
         <title>Remix: So great, it's funny!</title>
       </head>
       <body>
-        <h1>JOKES</h1>
+        <h1 className="text-orange-600 text-xl font-medium">JOKES</h1>
         <Outlet />
         <LiveReload />
       </body>
